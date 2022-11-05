@@ -1,0 +1,269 @@
+.content {
+    min-height: 700px;
+}
+
+.logo_icon {
+    background-image: url(logo.png);
+    min-height: 80px;
+    width: 247px;
+}
+
+ul li{
+    display: inline;
+    margin-right: 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #0C424F;
+}
+
+.logo_find {
+    margin-left: 10px;
+    background-image: url(logo_find.png);
+    width: 32px;
+    min-height: 32px;
+}
+
+.logo_eye {
+    margin-left: 10px;
+    background-image: url(logo_eye.png);
+    width: 32px;
+    min-height: 24px;
+}
+
+.main_info {
+    margin-top: 100px;
+    width: 50%;
+    background-color: white;
+}
+
+.main_info_header {
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.redline {
+    min-height: 50px;
+    display:flex;
+    align-items:center;
+    margin-left: 160px;
+}
+
+.redline_new {
+    min-height: 25px;
+    display:flex;
+    align-items:center;
+}
+
+.red_line {
+    background-image: url(redline.png);
+    min-height: 8px;
+    width: 120px; 
+}
+
+.more {
+    margin-left: 160px;
+    margin-bottom: 20px;
+    gap: 16px;
+    width: 205px;
+    min-height: 56px;
+    background: #C4413A;
+    border: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.main {
+    padding-bottom: 50px;
+}
+
+.main_info_text {
+    margin-left: 160px;
+    margin-right: 160px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    min-height: 212px;
+}
+
+.main_info_header_text {
+    font-family: 'RoadRadio';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 125%;
+    color: #0C424F;
+    text-align: center;
+    padding-top: 60px;  
+}
+
+.enroll {
+    gap: 16px;
+    border: 0px;
+    width: 233px;
+    min-height: 56px;
+    left: 1527px;
+    top: 53px;
+    background: #C4413A;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.phone {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #0C424F;
+}
+
+.mail {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: #C4413A;
+}
+
+.icons {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    padding-top: 40px;
+    padding-left: 160px;
+}
+
+.header {
+    min-width: 1600px;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+}
+
+.footer_left {
+    padding-left: 150px;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
+.footer_left p {
+    margin-right: 20px;
+}
+
+.footer_right {
+    padding-right: 150px;
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+.footer_right p {
+    margin-right: 20px;
+}
+
+.logo_tg {
+    background-image: url(logo_telegram.png);
+    width: 24px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.logo_vk {
+    background-image: url(logo_vk.png);
+    width: 24px;
+    height: 14px;
+    margin-right: 20px;
+}
+
+.logo_yt {
+    background-image: url(logo_youtube.png);
+    width: 24px;
+    height: 17px;
+    margin-right: 100px;
+}
+
+.red_text{
+    color: #C4413A;
+}
+
+.logo_spaceapp {
+    background-image: url(logo_spaceapp.png);
+    width: 45.6px;
+    height: 36px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+.contacts {
+    width: 80%;
+    margin: 0px auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact_info {
+    min-width: 497px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_info p {
+    margin-top: 10px;
+}
+
+.info {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.map {
+    background-image: url(map.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+
+.photo {
+    margin-top: 20px;
+    background-image: url(photo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
