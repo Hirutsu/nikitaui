@@ -76,9 +76,3 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
-body {
-  background-image: url(main_photo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}

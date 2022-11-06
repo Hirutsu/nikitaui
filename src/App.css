@@ -163,15 +163,19 @@ header {
     min-width: 1600px;
     min-height: 80px;
     display: flex;
+    position: fixed;
     justify-content: space-around;
     align-items: center;
 }
 
 .footer {
-    margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    min-height: 70px;
+    position:fixed;
+    min-height:100px;
+    width:100%;
+    left: 0;
+    bottom: 0;
 }
 
 .footer_left {
