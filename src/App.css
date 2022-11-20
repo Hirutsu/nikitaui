@@ -8,12 +8,12 @@
     width: 247px;
 }
 
-ul li{
+.header_ul li{
     display: inline;
     margin-right: 50px;
 }
 
-ul li a {
+.header_ul li a {
     text-decoration: none;
     font-family: 'Montserrat';
     font-style: normal;
@@ -154,18 +154,17 @@ ul li a {
     align-items: center;
 }
 
-header {
-    padding-top: 40px;
-    padding-left: 160px;
-}
-
 .header {
+    margin-top: 60px;
     min-width: 1600px;
     min-height: 80px;
     display: flex;
-    position: fixed;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+}
+
+.header div {
+    margin-right: 20px;
 }
 
 .footer {
@@ -236,6 +235,7 @@ header {
 .contacts {
     width: 80%;
     margin: 0px auto;
+    margin-top: 20px;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -270,4 +270,59 @@ header {
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100%;
+}
+
+
+
+/*for patients*/
+
+.patients {
+    display: flex;
+    margin: 0px auto;
+    margin-top: 50px;
+    width: 70%;
+    max-height: 650px;
+}
+
+.photo_doctor {
+    background-image: url(photo_doctor.png);
+    min-width: 620px;
+    min-height: 685px;
+    background-repeat: no-repeat;
+}
+
+.onko_service {
+    min-width: 20%;
+    padding-right: 10px;
+}
+
+.onko_info {
+    padding: 0;
+    list-style: none; 
+}
+
+.onko_info li {
+    color: #0C424F; 
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.onko_main_info {
+    min-width: 25%;
+    padding-right: 20px;
+    overflow: scroll;
+}
+
+
+/*about*/
+
+.photo_doctor_sec {
+    background-image: url(photo_doctor_sec.png);
+    min-width: 620px;
+    min-height: 685px;
+    background-repeat: no-repeat;
 }

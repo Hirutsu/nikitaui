@@ -3,16 +3,15 @@ import {NavLink} from 'react-router-dom';
 
 function Header() {
     return (
-        <header>
             <div className='header'>
-                <div className='logo_icon'/>
+                <NavLink to="/"><div className='logo_icon'/></NavLink>
                 <div className='logo_find'/>
-                <ul>
-                    <li><NavLink id="about" to="/">О Нас</NavLink></li>
-                    <li><NavLink to="/">Врачи</NavLink></li>
-                    <li><NavLink to="/">Пациентам</NavLink></li>
+                <ul className='header_ul'>
+                    <li><NavLink to="/about">О Нас</NavLink></li>
+                    <li><NavLink to="/error">Врачи</NavLink></li>
+                    <li><NavLink to="/patients">Пациентам</NavLink></li>
                     <li><NavLink id="contacts" to="/contacts">Контакты</NavLink></li>
-                    <li><NavLink to="/">Отзывы</NavLink></li>  
+                    <li><NavLink to="/error">Отзывы</NavLink></li>  
                 </ul>
                 <div className='logo_eye' />
                 <div>
@@ -21,7 +20,6 @@ function Header() {
                 </div>
                 <button className='enroll'>Записаться</button>
             </div>
-        </header>
     );
   }
   

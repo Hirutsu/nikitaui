@@ -17,66 +17,9 @@ import main_9 from './main_9.png'
 function App() {
   return (
     <BrowserRouter>
-      <Fullpage>
-        <FullpageNavigation/>
-        <FullPageSections>
-          
-          <FullpageSection style={{backgroundImage: `url(${main_1})`, backgroundSize: 'cover'}}>
-            <Header />
-            <Content />
-            <Footer />
-          </FullpageSection>
-
-          <FullpageSection style={{backgroundImage: `url(${main_2})`, backgroundSize: 'cover'}}>
-            <Header />
-            <Content />
-            <Footer />
-          </FullpageSection>
-
-          <FullpageSection style={{backgroundImage: `url(${main_3})`, backgroundSize: 'cover'}}>
-            <Header />
-            <Content />
-            <Footer />
-          </FullpageSection>
-
-          <FullpageSection style={{backgroundImage: `url(${main_4})`, backgroundSize: 'cover'}}>
-            <Header />
-            <Content />
-            <Footer />
-          </FullpageSection>
-
-          <FullpageSection style={{backgroundImage: `url(${main_5})`, backgroundSize: 'cover'}}>
-            <Header />
-            <Content />
-            <Footer />
-          </FullpageSection>
-
-          <FullpageSection style={{backgroundImage: `url(${main_6})`, backgroundSize: 'cover'}}>
-            <Header />
-            <Content />
-            <Footer />
-          </FullpageSection>
-
-          <FullpageSection style={{backgroundImage: `url(${main_7})`, backgroundSize: 'cover'}}>
-            <Header />
-            <Content />
-            <Footer />
-          </FullpageSection>
-
-          <FullpageSection style={{backgroundImage: `url(${main_8})`, backgroundSize: 'cover'}}>
-            <Header />
-            <Content />
-            <Footer />
-          </FullpageSection>
-
-          <FullpageSection style={{backgroundImage: `url(${main_9})`, backgroundSize: 'cover'}}>
-            <Header />
-            <Content />
-            <Footer />
-          </FullpageSection>
-
-        </FullPageSections>
-      </Fullpage>
+      <Header />
+      <Content />
+      <Footer />
     </BrowserRouter>
   );
 }
