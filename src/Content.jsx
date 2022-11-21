@@ -4,6 +4,7 @@ import Contacts from './Contacts';
 import ForPatients from './ForPatients';
 import Error from './Error';
 import About from './About';
+import Reviews from './Reviews';
 
 function Content() {
     return(
@@ -14,6 +15,7 @@ function Content() {
                     <Route path='/about' element={<About/>}/>
                     <Route path='/patients' element={<ForPatients/>}/>
                     <Route path='/error' element={<Error/>}/>
+                    <Route path='/reviews' element={<Reviews/>}/>
             </Routes>
         </div>
     );

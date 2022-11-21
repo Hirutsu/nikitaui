@@ -11,7 +11,7 @@ function Header() {
                     <li><NavLink to="/error">Врачи</NavLink></li>
                     <li><NavLink to="/patients">Пациентам</NavLink></li>
                     <li><NavLink id="contacts" to="/contacts">Контакты</NavLink></li>
-                    <li><NavLink to="/error">Отзывы</NavLink></li>  
+                    <li><NavLink to="/reviews">Отзывы</NavLink></li>  
                 </ul>
                 <div className='logo_eye' />
                 <div>
