@@ -8,7 +8,7 @@ function Header() {
                 <div className='logo_find'/>
                 <ul className='header_ul'>
                     <li><NavLink to="/about">О Нас</NavLink></li>
-                    <li><NavLink to="/error">Врачи</NavLink></li>
+                    <li><NavLink to="/doctors">Врачи</NavLink></li>
                     <li><NavLink to="/patients">Пациентам</NavLink></li>
                     <li><NavLink id="contacts" to="/contacts">Контакты</NavLink></li>
                     <li><NavLink to="/reviews">Отзывы</NavLink></li>  
