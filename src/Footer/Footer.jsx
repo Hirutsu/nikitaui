@@ -7,11 +7,11 @@ function Footer() {
                     <p className='red_text'>Политика конфиденциальности</p>
                 </div>
                 <div className='footer_right'>
-                    <div className='logo_tg' />
-                    <div className='logo_vk' />
-                    <div className='logo_yt' />
+                    <img src="images/logo_telegram.png" className='logo_tg' />
+                    <img src="images/logo_vk.png" className='logo_vk' />
+                    <img src="images/logo_youtube.png" className='logo_yt' />
                     <p>Разработка сайта</p>
-                    <div className='logo_spaceapp' />
+                    <img src="images/logo_spaceapp.png" className='logo_spaceapp' />
                 </div>
             </div>
         </footer>

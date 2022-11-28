@@ -4,13 +4,11 @@ body {
 }
 
 .content {
-    min-height: 700px;
     width: 100%;
     justify-self: center;
 }
 
 .logo_icon {
-    background-image: url(logo.png);
     min-height: 80px;
     width: 247px;
 }
@@ -32,7 +30,6 @@ body {
 
 .logo_find {
     margin-left: 10px;
-    background-image: url(logo_find.png);
     width: 32px;
     min-height: 32px;
     background-repeat: no-repeat;
@@ -40,9 +37,10 @@ body {
 
 .logo_eye {
     margin-left: 10px;
-    background-image: url(logo_eye.png);
     width: 32px;
     min-height: 24px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
 }
 
 .main_info {
@@ -70,7 +68,6 @@ body {
 }
 
 .red_line {
-    background-image: url(redline.png);
     min-height: 8px;
     width: 120px; 
 }
@@ -178,11 +175,8 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    position:fixed;
     min-height:100px;
     width:100%;
-    left: 0;
-    bottom: 0;
 }
 
 .footer_left {
@@ -208,21 +202,18 @@ body {
 }
 
 .logo_tg {
-    background-image: url(logo_telegram.png);
     width: 24px;
     height: 20px;
     margin-right: 20px;
 }
 
 .logo_vk {
-    background-image: url(logo_vk.png);
     width: 24px;
     height: 14px;
     margin-right: 20px;
 }
 
 .logo_yt {
-    background-image: url(logo_youtube.png);
     width: 24px;
     height: 17px;
     margin-right: 100px;
@@ -233,7 +224,6 @@ body {
 }
 
 .logo_spaceapp {
-    background-image: url(logo_spaceapp.png);
     width: 45.6px;
     height: 36px;
     margin-left: 40px;
@@ -266,7 +256,7 @@ body {
 }
 
 .map {
-    background-image: url(map.png);
+    background-image: url(/public/Images/map.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
@@ -274,7 +264,6 @@ body {
 
 .photo {
     margin-top: 20px;
-    background-image: url(photo.png);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 100%;
@@ -293,7 +282,6 @@ body {
 }
 
 .photo_doctor {
-    background-image: url(photo_doctor.png);
     min-width: 620px;
     min-height: 685px;
     background-repeat: no-repeat;
@@ -325,11 +313,9 @@ body {
     overflow: scroll;
 }
 
-
 /*about*/
 
 .photo_doctor_sec {
-    background-image: url(photo_doctor_sec.png);
     min-width: 620px;
     min-height: 685px;
     background-repeat: no-repeat;
@@ -342,7 +328,6 @@ body {
     margin: 0px auto;
     margin-top: 50px;
     width: 80%;
-    max-height: 650px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -388,7 +373,6 @@ body {
     margin: 0px auto;
     margin-top: 50px;
     width: 80%;
-    max-height: 650px;
 }
 
 .doctors_info {
@@ -431,13 +415,14 @@ body {
 
 .doctors_items {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .doctors_item {
     min-width: 370px;
     min-height: 600px;
     background-color: white;
-    margin-right: 40px;
+    margin: 20px;
 }
 
 .pad {
@@ -450,29 +435,7 @@ body {
     color: #444444;
 }
 
-.doctor_1 {
-    background-image: url(doctor_1.png);
-    width: 290px;
-    height: 290px;
-    background-repeat: no-repeat;
-}
-
-.doctor_2 {
-    background-image: url(doctor_2.png);
-    width: 290px;
-    height: 290px;
-    background-repeat: no-repeat;
-}
-
-.doctor_3 {
-    background-image: url(doctor_3.png);
-    width: 290px;
-    height: 290px;
-    background-repeat: no-repeat;
-}
-
-.doctor_4 {
-    background-image: url(doctor_4.png);
+.doctor_photo {
     width: 290px;
     height: 290px;
     background-repeat: no-repeat;

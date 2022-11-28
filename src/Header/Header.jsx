@@ -4,8 +4,8 @@ import {NavLink} from 'react-router-dom';
 function Header() {
     return (
             <div className='header'>
-                <NavLink to="/"><div className='logo_icon'/></NavLink>
-                <div className='logo_find'/>
+                <NavLink to="/"><img src="/images/logo.png" className='logo_icon'/></NavLink>
+                <img src="/images/logo_find.png" className='logo_find'/>
                 <ul className='header_ul'>
                     <li><NavLink to="/about">О Нас</NavLink></li>
                     <li><NavLink to="/doctors">Врачи</NavLink></li>
@@ -13,7 +13,7 @@ function Header() {
                     <li><NavLink id="contacts" to="/contacts">Контакты</NavLink></li>
                     <li><NavLink to="/reviews">Отзывы</NavLink></li>  
                 </ul>
-                <div className='logo_eye' />
+                <img src="/images/logo_eye.png" className='logo_eye' />
                 <div>
                     <p className='phone'>8 (8452) 38-44-28</p>
                     <p className='mail'>saratov@ood2.ru</p>

@@ -38,14 +38,14 @@ function Doctors() {
                     </ul>
                     <div className="doctors_info_find">
                         <div><input style={{outline: "none", border: "none"}} placeholder="Поиск врача" /></div>
-                        <div className='logo_find'></div>
+                        <img src="/images/logo_find.png" className='logo_find'></img>
                     </div>
                 </div>
             </div>
             <div className="doctors_items">
                     <div className="doctors_item">
                         <div className="pad">
-                            <div className='doctor_1'></div>
+                            <img src="/images/doctor_1.png" className='doctor_photo'></img>
                             <p><b>Дудочкин Денис Павлович</b></p>
                             <div className="red_line"></div>
                             <p>Стаж 22 года</p>
@@ -56,7 +56,7 @@ function Doctors() {
                     </div>
                     <div className="doctors_item">
                         <div className="pad">
-                            <div className='doctor_2'></div>
+                            <img src="/images/doctor_2.png" className='doctor_photo'></img>
                             <p><b>Ильичева Юлия Анатольевна</b></p>
                             <div className="red_line"></div>
                             <p>Стаж 21 года</p>
@@ -67,7 +67,7 @@ function Doctors() {
                     </div>
                     <div className="doctors_item">
                         <div className="pad">
-                            <div className='doctor_3'></div>
+                            <img src="/images/doctor_3.png" className='doctor_photo'></img>
                             <p><b>Лапшин Михаил Владимирович</b></p>
                             <div className="red_line"></div>
                             <p>Стаж 29 лет</p>
@@ -78,7 +78,7 @@ function Doctors() {
                     </div>
                     <div className="doctors_item">
                         <div className="pad">
-                            <div className='doctor_4'></div>
+                            <img src="/images/doctor_4.png" className='doctor_photo'></img>
                             <p><b>Анисимова Елена Викторовна</b></p>
                             <div className="red_line"></div>
                             <p>Стаж 24 года</p>
