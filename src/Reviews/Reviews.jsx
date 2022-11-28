@@ -9,7 +9,7 @@ function Reviews() {
                 </div>
                 <div className="rev_con_bot">
                     <div>
-                        <div className="red_line"></div>
+                        <img src="/images/redline.png" className="red_line"></img>
                     </div>
                     <div className="rcb_info">
                         <div>
@@ -28,7 +28,7 @@ function Reviews() {
                 </div>
                 <div className="rev_con_bot">
                     <div>
-                        <div className="red_line"></div>
+                        <img src="/images/redline.png" className="red_line"></img>
                     </div>
                     <div className="rcb_info">
                         <div>
@@ -47,7 +47,7 @@ function Reviews() {
                 </div>
                 <div className="rev_con_bot">
                     <div>
-                        <div className="red_line"></div>
+                        <img src="/images/redline.png" className="red_line"></img>
                     </div>
                     <div className="rcb_info">
                         <div>
@@ -67,7 +67,7 @@ function Reviews() {
                 </div>
                 <div className="rev_con_bot">
                     <div>
-                        <div className="red_line"></div>
+                        <img src="/images/redline.png" className="red_line"></img>
                     </div>
                     <div className="rcb_info">
                         <div>

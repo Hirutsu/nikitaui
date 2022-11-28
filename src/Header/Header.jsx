@@ -1,4 +1,5 @@
 import {NavLink} from 'react-router-dom';
+import ModalRecord from '../Modal/Modal';
 
 
 function Header() {
@@ -17,8 +18,8 @@ function Header() {
                 <div>
                     <p className='phone'>8 (8452) 38-44-28</p>
                     <p className='mail'>saratov@ood2.ru</p>
-                </div>
-                <button className='enroll'>Записаться</button>
+                </div>        
+                <ModalRecord />
             </div>
     );
   }

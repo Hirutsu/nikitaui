@@ -7,7 +7,7 @@ function Main() {
                 Онкологическая служба<br/>Саратовской области</div>
             </div>
             <div className='redline'>
-                <img className='red_line'/>
+                <img src="/images/redline.png" className='red_line'/>
             </div>
             <div className='main_info_text'>
             История онкологической службы Саратовской области начинается с создания первого Областного онкологического диспансера, организованного 
